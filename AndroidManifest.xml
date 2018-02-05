@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.login"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bookk"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.android.login.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.login.LoginMyActivity"
+            android:label="@string/Login" >
+            
+        </activity>
+        <activity
+            android:name="com.android.login.MainActivity"
+            android:label="@string/main" >
+            
+        </activity>
+         <activity
+            android:name="com.android.login.personal"
+            android:label="@string/personal" >
+            
+        </activity>
+         <activity
+            android:name="com.android.login.borrowmessage"
+            android:label="@string/borrow" >
+            
+        </activity>
+         <activity
+            android:name="com.android.login.advice"
+            android:label="@string/advice" >
+            
+        </activity>
+         <activity
+            android:name="com.android.login.bookresult"
+            android:label="@string/bookresult" >
+            
+        </activity>
+         <activity
+            android:name="com.android.login.ruguan"
+            android:label="@string/ruguan" >
+            
+        </activity>
+        <activity
+            android:name="com.android.login.bookdetialmessage"
+            android:label="@string/bookdetialmessage" >
+            
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />  
+      <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+</manifest>
